@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/assignment1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model question paper for summative test</title>
+</head>
+<body>
+    <b>General Instuction</b>
+    <center><h2>SECTION A</h2></center>
+<p>Q1- What will br thr product of(<sub>a</sub>2) x (<sub>2a</sub>22) x (<sub>4a</sub>26)</p>
+<ol type="a">
+<li><sub>8a</sub>46</li>
+<li><sub>8a</sub>48</li>
+<li><sub>6a</sub>50</li>
+<li><sub>8a</sub>50</li>
+</ol>
+<p>Q2- What is oxidised to oxygen by</p>
+<ol type="a">
+    <li><sup>H</sup>2<sup>O</sup>2</li>
+    <li><sup>KMnO</sup>4</li>
+    <li><sup>CIO</sup>2</li>
+    <li>Fluorine</li>
+</ol>
+<br><br>
+<center><h2>SECTION B</h2></center>
+<style>
+    .container {
+    display: flex;
+    align-items: top;
+    justify-content: top
+  }
+  img {
+    max-width: 100%;
+    max-height:100%;
+  }
+  .text {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+</style>
+
+  <div class="container">
+    <div class="image">
+      <img src="./Model question paper for summative test_files/doctor.jpg" hight="1300px" width="550px">
+    </div>
+    <div class="text">
+         <h1><center>Doctor Appointment Form</center></h1><hr color="red">
+
+   <p></p>
+   <label>Appointment date</label>
+   <input type="date" value="date">
+   <p></p>
+   <label>Appointment Time</label>
+   <input type="time" value="time">
+   <p></p>
+   <label>name</label>
+   <input type="text" placeholder="first"><input type="text" placeholder="last">
+<p></p>
+<label>gender</label>
+<input type="radio" id="male" name="fav-language" value="male">
+<label>Male</label>
+<input type="radio" id="female" name="fav-language" value="female">
+<label>female</label>
+<p></p>
+<label>phone</label>
+<input type="phone" placeholder="****">
+<p></p>
+<label>Adress</label>
+<iput type="text" placeholder="city"><iput type="text" placeholder="state">
+<p></p>
+<label>Appointment Day:</label>
+<p></p>
+<input type="checkbox">
+<label>Monday</label>
+<p></p>
+<input type="checkbox">
+<label>Tuesday</label>
+<p></p>
+<input type="checkbox">
+<label>Wednesday</label>
+<p></p>
+<input type="checkbox">
+<label>Thursday</label>
+<p></p>
+<input type="checkbox">
+<label>Friday</label>
+<p></p>
+
+    </iput></iput></div>
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
